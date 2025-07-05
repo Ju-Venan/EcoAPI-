@@ -1,4 +1,4 @@
-const areas = require("../model/area");
+const areas = require("../../src/model/area");
 
 // [GET] Listar todas as áreas
 function listarAreas(req, res) {
