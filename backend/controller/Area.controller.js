@@ -1,7 +1,8 @@
-const areas = require('../model/area');
+const areas = require("../model/Area.model");
 
 // [GET] Listar todas as áreas
 function listarAreas(req, res) {
+  console.log("Dados sendo enviados pela API", areas)
   res.json(areas);
 }
 

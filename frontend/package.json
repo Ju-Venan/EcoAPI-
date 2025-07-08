@@ -4,13 +4,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon main.js"
+    "dev": "next dev"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@types/react": "^19.1.8",
+    "axios": "^1.10.0",
     "express": "^5.1.0",
     "next": "^15.3.5",
     "react": "^19.1.0",
